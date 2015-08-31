@@ -23,6 +23,15 @@ sitemap: false
 @import "elements";
 @import "forms";
 @import "page";
+@import "vendor/academicons/academicons";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
+
+li.paper{margin-bottom:1em;}
+ul.software{
+    margin-top:1em;
+    list-style:none;
+}
+
+
