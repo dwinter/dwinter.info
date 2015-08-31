@@ -1,0 +1,44 @@
+- name: rentrez
+  description: rentrez is an R package for the NCBI EUtils api. Usig this API, 
+      rentrez allows users search for,  find cross-references among and download 
+      records from each of NCBI's databases (including GenBank, Pubmed and dbSNP).
+      rentrez is part of the <a href="ropensci.org">ROpenSci</i> project, and the 
+      source repository provides extensive documentation for the package.
+  github: ropensci/rentrez
+  cran: true
+
+- name: accuMUlate
+  description: accuMUlate is a c++ program for indentifying <i>de novo</i>
+     mutations from NGS data generated from mutation accumulation (MA) experiments. 
+     In contrast to existing heurestic methods of mutation detection, accuMUlate takes a 
+     probablistic approach to calling mutations, building a model that matches the 
+     design of MA experiments. 
+  github: dwinter/accumulate
+  
+- name: rotl
+  description: rotl is an R package that provide and interfact to the NSF-funded
+      <a href="http://opentreeoflife.org/">Open Tree of Life database</a>. This package was developed as part of 
+      a NESCent hackathon, with <a href="http://francoismichonneau.net/">François Michonneau</a>,
+      <a href="http://www-personal.umich.edu/~josephwb/">Joseph Brown</a> and I
+      contributing the project.
+  cran: true
+  github: ropensci/rotl
+
+- name: mmod
+  description: Population geneticists have traditionally used as statisti called 
+      Nei's Gst to measure  divergence between populations. However, it has 
+      become clear that Gst does not have a simple relationship to divergene, 
+      especially for very highly polymorphic loci. 
+      <br><br> 
+      <a href="http://www.molecularecologist.com/2011/03/should-i-use-fst-gst-or-d-2/">
+      A number of new statistics have been developed to account for this problem</a>,  
+      mmod is a package that brings three of these measures; Hedricks (2005, 2011) G''st 
+      Jost's (2008) D and Meirman's (2005) φ'st to R, along with a function that 
+     calculates Nei's Gst using nearly unbiased estimators for Hs and Ht  (the two 
+     key parameters from which most of these stats are calculated). All these 
+     functions work on `genind` objects from the package `adegenet` so data can be 
+     read in from standard `genepop` for `fstat` files
+  github: opensci/rentrez
+  cran: true
+  doi: 10.1111/j.1755-0998.2012.03174.x 
+
